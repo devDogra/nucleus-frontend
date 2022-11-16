@@ -1,5 +1,7 @@
 # World Weather Website
 
+NOTE: In some cases the country list might take 1 or 2 seconds to show, and the queries of the weather might take 1-2 seconds to show as well. 
+
 Instructions:
 
 Visit https://devdogra.github.io/nucleus-frontend/
