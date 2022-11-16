@@ -78,5 +78,3 @@ async function fetchWeatherInfo(countryName) {
 
   return weatherJSON;
 }
-
-fetchWeatherInfo("Algeria");
