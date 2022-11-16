@@ -4,7 +4,7 @@ NOTE: In some cases the country list might take 1 or 2 seconds to show, and the 
 
 Instructions:
 
-Visit https://devdogra.github.io/nucleus-frontend/
+Visit the hosted website:    https://devdogra.github.io/nucleus-frontend/
 
 OR
 
