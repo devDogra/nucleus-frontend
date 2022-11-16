@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country weather information</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>COUNTRIES</h1>
+    <p>NOTE: Each query might take 1 or 2 seconds to update</p>
+
+    <div class="container-wrapper">
+        <div class="container">
+        </div>
+        
+        <div class="weather-info" data-country="">
+            <h3></h3>
+            <span class="temperature"></span>
+            <span class="humidity"></span>
+            <span class="wind-data"></span>
+        </div>
+
+    </div>
+
+
+    <template id="country-card-template">
+        <div class="country-card">
+            <span class="country-name"></span>
+            <button class="country-weather-btn">Check weather</button>
+        </div>
+    </template>
+    
+</body>
+</html>

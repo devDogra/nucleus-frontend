@@ -1,0 +1,45 @@
+.country-card{
+    border-right: solid;
+    border-bottom: solid; 
+     
+}
+
+.container{
+    display: flex; 
+    flex-wrap: wrap;
+    width: 60%; 
+
+    flex: auto; 
+}
+.country-card{
+    width: 45%; 
+    flex: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem; 
+}
+
+.weather-info{
+    display: none;
+
+    width: 40%; 
+    flex: auto; 
+
+    padding: 1rem 3rem; 
+    font-size: 2rem; 
+    background-color: rgba(82, 243, 195, 0.671);
+
+    position: fixed; 
+    top: 30%; 
+    left: 30%; 
+
+    flex-direction: column;
+    gap: .5rem;
+}
+.weather-info[showing]{
+    display: flex; 
+}
+
+.container-wrapper{
+    display: flex; 
+}
